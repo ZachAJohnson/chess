@@ -39,7 +39,7 @@ mycanvas.pack(fill='both',expand=1)
 
 myboard=bd.Board(board_canvas,sqr_size)
 myboard.create_board()
-first_game = game.Player_Game("Zach","Dickface",myboard)
+first_game = game.Player_Game("Zach","Other",myboard)
 first_game.new_game()
 
 #knight=pcs.Knight(myboard,board_canvas,'merida/320/BlackKnight.png',sqr_size)
